@@ -1,0 +1,50 @@
+.crew-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: end;
+  min-height: 89vh;
+  margin-left: 80px;
+}
+.crew-container img {
+  width: 450px;
+  margin-right: 45px;
+}
+
+.crew-container img:nth-child(1) {
+  width: 400px;
+}
+.crew-container img:nth-child(2) {
+  width: 450px;
+}
+.crew-container img:nth-child(3) {
+  width: 450px;
+}
+.crew-content-container {
+  /* display: flex; */
+  flex-direction: column;
+  width: 488px;
+  margin-bottom: 170px;
+}
+.crew-container .crewDetail {
+  font-family: "Bellefair", sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: gray;
+  margin-bottom: 10px;
+}
+.crew-container .crewDName {
+  color: white;
+  font-family: "Bellefair", sans-serif;
+  font-size: 56px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  width: 150%;
+}
+.crew-Para {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+}

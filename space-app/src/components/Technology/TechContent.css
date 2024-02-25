@@ -1,0 +1,40 @@
+.Tech-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-left: 80px;
+}
+.Tech-Container img {
+  width: 450px;
+}
+.Tech-Content-Container {
+  /* display: flex; */
+  flex-direction: column;
+  width: 488px;
+  margin-bottom: 120px;
+  margin-right: 200px;
+}
+.Tech-Container .techHead {
+  font-family: "Bellefair", sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: gray;
+  margin-bottom: 10px;
+}
+.Tech-Container .techName {
+  color: white;
+  font-family: "Bellefair", sans-serif;
+  font-size: 56px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  margin-top: 40px;
+  width: 150%;
+}
+.para {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+}

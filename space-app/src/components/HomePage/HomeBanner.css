@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Roboto+Slab:wght@400;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&family=Roboto+Slab:wght@400;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bannerContainer {
+  width: 100vw;
+  height: 100vh;
+  background: url("../assets/home/background-home-desktop.jpg") center
+    center/cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 382px;
+  position: relative;
+  bottom: 0;
+  top: 300px;
+  left: 120px;
+}
+
+.content h5 {
+  font-size: 28px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 4.75px;
+  color: #d0d6f9;
+  font-weight: 300;
+}
+
+.content h1 {
+  font-size: 150px;
+  color: white;
+  font-family: "Bellefair", sans-serif;
+  font-weight: 400;
+}
+
+.content p {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 32px;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contentContainer button {
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  width: 274px;
+  height: 274px;
+  font-family: "Bellefair", sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  position: relative;
+  top: 300px;
+  right: 180px;
+  bottom: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.contentContainer button:hover {
+  box-shadow: 0px 0px 0px 40px rgba(255, 255, 255, 0.4);
+  background-color: white;
+  cursor: pointer;
+}

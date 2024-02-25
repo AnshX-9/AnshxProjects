@@ -1,0 +1,52 @@
+.destination-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.destination-container img {
+  width: 400px;
+}
+.destination-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+}
+.destination-Time {
+  font-family: "Bellefair", sans-serif !important;
+  font-size: 28px;
+}
+
+.dest-Time {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.line-two {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  opacity: 55%;
+}
+.destination-content-container h1 {
+  font-family: "Bellefair", sans-serif;
+  font-size: 100px;
+  font-weight: 300;
+}
+.destination-content-container p {
+  font-family: "Barlow", sans-serif;
+  margin: 10px 0 40px 0;
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: 100;
+}
+.dest-Time span {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.dest-Time h4 {
+  font-family: "Bellefair", sans-serif;
+  margin: 0 30px 0 0;
+  font-weight: 300;
+  font-size: 28px;
+}

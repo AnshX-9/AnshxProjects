@@ -1,0 +1,31 @@
+.destinationTabContainer {
+  margin-top: 150px;
+  color: white;
+  width: 100%;
+  height: 100vh calc();
+  overflow: hidden;
+}
+.dest-tab-container {
+  display: flex;
+  position: relative;
+  left: 930px;
+  margin-bottom: 35px;
+  font-size: 16px;
+}
+
+.dest-tab {
+  height: 5vh;
+}
+
+.dest-tab-container a {
+  margin: 0 30px 0 0;
+  font-family: "Barlow Condensed", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 100%;
+}
+.dest-tab-container a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 15px;
+}
